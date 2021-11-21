@@ -1,0 +1,11 @@
+{
+    "compilerOptions": {
+        "lib": ["ES2015", "DOM"], // 支持es6
+        "target": "ES2015", 
+        "noImplicitAny": true,
+        "strict": true,
+        "noImplicitThis": true,
+        "strictNullChecks": true,
+        // "allowJs": true, // 项目中允许js文件
+    }
+}
