@@ -4,8 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "dev": "ts-node-dev --respawn --transpile-only src/泛型.ts",
-    "build": "tsc src/泛型.ts"
+    "dev": "ts-node-dev --respawn --transpile-only src/interface.ts",
+    "build": "tsc src/interface.ts"
   },
   "keywords": [],
   "author": "",
