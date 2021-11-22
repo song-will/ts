@@ -51,7 +51,7 @@ class BigItalClock implements ClockInterFace {
         console.log('big')
     }
 }
-
+// 工厂
 function createClock(ctor: ClockConstructor, hour: number, minute: number): ClockInterFace {
     return new ctor(hour, minute)
 }

@@ -2,10 +2,13 @@
     "compilerOptions": {
         "lib": ["ES2015", "DOM"], // 支持es6
         "target": "ES2015", 
+        "types": ["reflect-metadata"],
         "noImplicitAny": true,
         "strict": true,
         "noImplicitThis": true,
         "strictNullChecks": true,
         // "allowJs": true, // 项目中允许js文件
+        "experimentalDecorators": true,
+        "emitDecoratorMetadata": true, // 支持元编程
     }
 }

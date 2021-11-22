@@ -4,13 +4,14 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "dev": "ts-node-dev --respawn --transpile-only src/interface.ts",
-    "build": "tsc src/interface.ts"
+    "dev": "ts-node-dev --respawn --transpile-only src/装饰器.ts",
+    "build": "tsc src/装饰器.ts"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "reflect-metadata": "^0.1.13",
     "typescript": "^4.5.2"
   },
   "devDependencies": {
